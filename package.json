@@ -1,0 +1,9 @@
+{
+  "name": "anjin-building-safety",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "지역 공고와 건축물대장을 대조하는 건축물 안전지원 업무 도구",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node --env-file-if-exists=.env server.mjs", "test": "node --test tests/*.test.mjs", "check": "node scripts/check.mjs" }
+}

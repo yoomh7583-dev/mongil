@@ -1,0 +1,8 @@
+.git
+.env
+.env.*
+data
+work
+node_modules
+tests
+output
